@@ -11,7 +11,7 @@ const Header = () => {
                         <div className='header-cnt-top-l'>
                             <ul className='flex top-links align-center'>
                                 <li>
-                                    <Link to = "/seller">Trang chủ</Link>
+                                    <Link to = "/seller">Seller Center</Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
@@ -42,24 +42,25 @@ const Header = () => {
                     <span className='top-link-itm-ico mx-2'>
                       <i className='fa-solid fa-circle-question'></i>
                     </span>
-                                        <span className='top-link-itm-txt'>Hỗ trợ</span>
+                                        <span className='top-link-itm-txt'>Support</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
                                     <Link to = "/">
-                                        <span className='top-link-itm-txt'>Đăng kí</span>
+                                        <span className='top-link-itm-txt'>Register</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
                                     <Link to = "/">
-                                        <span className='top-link-itm-txt'>Đăng nhập</span>
+                                        <span className='top-link-itm-txt'>Log in</span>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                     <div className='header-cnt-bottom'>
                     </div>
                 </div>
