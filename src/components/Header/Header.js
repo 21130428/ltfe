@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Header.scss";
 import {Link} from 'react-router-dom';
+import Navigationbar from "../Navigationbar/Navigationbar";
 
 const Header = () => {
     return (
@@ -65,6 +66,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <Navigationbar />
         </header>
     )
 }
