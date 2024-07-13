@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='vert-line'></div>
                     <Link to = "/" className='text-uppercase'>điều khoản</Link>
                     <div className='vert-line'></div>
-                    <Link to = "/" className='text-uppercase'>giới thiệu</Link>
+                    <Link to = "/" className='text-uppercase'>giới thiệu.</Link>
                 </div>
             </div>
         </footer>
