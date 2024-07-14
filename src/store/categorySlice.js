@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice} from "@reduxjs/toolkit"
-import {BASE_URL} from "../db.json";
+import {BASE_URL} from "../utils/apiURL";
 import {STATUS} from "../utils/status";
-
+//state
 const initialState = {
     categoriesList: [],
     categoriesStatus: STATUS.IDLE,

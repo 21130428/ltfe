@@ -1,9 +1,44 @@
-[
-  "Đồng phục cấp 3",
-  "Đồng phục cấp 1",
-  "Đồng phục cấp 2",
-  "Áo lớp",
-  "Áo lớp dạ quang",
-  "Áo lớp BTX",
-  "Áo lớp đẹp"
-]
+{
+  "products":
+  [
+    {
+      "id": 1,
+      "category": "Electronics",
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "title": "Smartphone",
+      "brand": "TechBrand",
+      "price": 699.99,
+      "discountedPrice": 599.99,
+      "discountedPercentage": 14
+    },
+    {
+      "id": 2,
+      "category": "Books",
+      "images": [
+        "https://example.com/image3.jpg"
+      ],
+      "title": "Learn React",
+      "brand": "BookBrand",
+      "price": 29.99,
+      "discountedPrice": 19.99,
+      "discountedPercentage": 33
+    },
+    {
+      "id": 3,
+      "category": "Clothing",
+      "images": [
+        "https://example.com/image4.jpg",
+        "https://example.com/image5.jpg"
+      ],
+      "title": "T-Shirt",
+      "brand": "FashionBrand",
+      "price": 19.99,
+      "discountedPrice": 14.99,
+      "discountedPercentage": 25
+    }
+  ]
+}
+

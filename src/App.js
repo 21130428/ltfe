@@ -3,6 +3,7 @@ import './App.scss';
 import Sidebar from "./components/Slider/HeaderSlider"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header/Header";
+import Home from "./pages/HomePage/HomePage"
 import store from "./store/store";
 import {Provider} from "react-redux";
 function App() {
@@ -12,7 +13,11 @@ function App() {
                 <BrowserRouter>
                     <Header />
                     <Sidebar/>
+                    <Routes>
+                        <Route path = "/" element={<Home/>}/>
+                    </Routes>
                 </BrowserRouter>
+
             </Provider>
         </div>
     );
