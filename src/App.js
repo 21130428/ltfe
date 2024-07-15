@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.scss';
-import Sidebar from "./components/Slider/HeaderSlider"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -13,7 +12,6 @@ function App() {
             <Provider store={store}>
                 <BrowserRouter>
                     <Header />
-                    <Sidebar/>
                     <Routes>
                         <Route path = "/" element={<Home/>}/>
                     </Routes>
