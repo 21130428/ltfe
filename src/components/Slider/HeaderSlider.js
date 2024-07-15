@@ -1,6 +1,5 @@
 import React from 'react';
 
-//TanKiet
 const HeaderSlider = () =>{
     return(
         <div>
