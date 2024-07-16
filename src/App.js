@@ -3,7 +3,8 @@ import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./pages/HomePage/HomePage"
+import Sidebar from "./components/Sidebar/Sidebar";
+import Home from "./pages/HomePage/HomePage";
 import store from "./store/store";
 import {Provider} from "react-redux";
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Provider store={store}>
                 <BrowserRouter>
                     <Header />
+                    <Sidebar/>
                     <Routes>
                         <Route path = "/" element={<Home/>}/>
                     </Routes>

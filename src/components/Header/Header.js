@@ -12,23 +12,19 @@ const Header = () => {
                         <div className='header-cnt-top-l'>
                             <ul className='flex top-links align-center'>
                                 <li>
-                                    <Link to = "/seller">Seller Center</Link>
-                                </li>
-                                <li className='vert-line'></li>
-                                <li>
-                                    <Link to = "/download">Download</Link>
+                                    <Link to="/seller">WEB BÁN ĐỒNG PHỤC</Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li className='flex align-center'>
                                     <span className='fs-13'>Follow us on</span>
                                     <ul className='social-links flex align-center'>
                                         <li className='mx-2'>
-                                            <a href = "" className='fs-15'>
+                                            <a href="" className='fs-15'>
                                                 <i className='fab fa-facebook'></i>
                                             </a>
                                         </li>
                                         <li className='mx-2'>
-                                            <a href = "" className='fs-15'>
+                                            <a href="" className='fs-15'>
                                                 <i className='fab fa-instagram'></i>
                                             </a>
                                         </li>
@@ -43,19 +39,19 @@ const Header = () => {
                     <span className='top-link-itm-ico mx-2'>
                       <i className='fa-solid fa-circle-question'></i>
                     </span>
-                                        <span className='top-link-itm-txt'>Support</span>
+                                        <span className='top-link-itm-txt'>Hỗ trợ</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
                                     <Link to = "/">
-                                        <span className='top-link-itm-txt'>Register</span>
+                                        <span className='top-link-itm-txt'>Đăng kí</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
                                     <Link to = "/">
-                                        <span className='top-link-itm-txt'>Log in</span>
+                                        <span className='top-link-itm-txt'>Đăng nhập</span>
                                     </Link>
                                 </li>
                             </ul>

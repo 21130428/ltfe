@@ -20,7 +20,7 @@
     right: 2rem;
     transition: $transition-ease;
     &:hover{
-      color: $clr-orange;
+      color: $clr-blue;
     }
   }
   .cat-list{
@@ -37,7 +37,7 @@
         transition: $transition-ease;
 
         &:hover{
-          color: $clr-orange;
+          color: $clr-blue;
           margin-left: 10px;
         }
       }

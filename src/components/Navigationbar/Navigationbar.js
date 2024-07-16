@@ -1,14 +1,18 @@
 import React, {useEffect, useState} from 'react';
 import "./Navigationbar.scss";
 import {Link} from "react-router-dom";
-import {useSelector, useDispatch} from 'react-redux';
+import { useSelector, useDispatch} from 'react-redux';
+import { setSidebarOn } from '../../store/sidebarSlice';
 
 const Navigationbar = () => {
+
+    const dispatch = useDispatch();
+
     return (
         <nav className='navbar'>
             <div className='navbar-cnt flex align-center'>
                 <div className='brand-and-toggler flex align-center'>
-                    <button type="button" className='sidebar-show-btn text-white'>
+                    <button type="button" className='sidebar-show-btn text-white' onClick={() => dispatch(setSidebarOn())}>
                         <i className='fas fa-bars'></i>
                     </button>
                     <Link to="/" className='navbar-brand flex align-center'>
@@ -31,13 +35,17 @@ const Navigationbar = () => {
                             </Link>
                         </div>
                     </div>
-
+                    <ul className='navbar-nav flex align-center fs-12 fw-4 font-manrope'>
+                        <li className='nav-item no-wrap'>
+                            <Link to="" className='nav-link text-capitalize'>Categories</Link>
+                        </li>
+                    </ul>
                 </div>
 
                 <div className='navbar-cart flex align-center'>
                     <Link to="/cart" className='cart-btn'>
                         <i className='fa-solid fa-cart-shopping'></i>
-                        <div className='cart-items-value'></div>
+                        <div className='cart-items-value'>0</div>
                     </Link>
                 </div>
             </div>
