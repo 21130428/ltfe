@@ -13,11 +13,19 @@ const HomePage = () =>{
 
     useEffect(()=>{
         console.log("Dispatching fetchAsyncProducts");
-        dispatch(fetchAsyncProducts(50))
+        dispatch(fetchAsyncProducts(3))
     },[]);
     const products = useSelector(getAllProducts);
     console.log(products);
     const productStatus = useSelector(getAllProductsStatus);
+
+    // random sản phẩm
+    const tempProducts = []
+    if (products.length>0){
+        for (let i in products){
+
+        }
+    }
     return (
         <main>
             <div className='slider-wrapper'>
@@ -29,7 +37,13 @@ const HomePage = () =>{
                             <div className='title-md'>
                                 <h3>Sản phẩm mới nhất</h3>
                             </div>
-                            {productStatus === STATUS.LOADING ? <Loader/> :<ProductList products={products}/>}
+                            {productStatus === STATUS.LOADING ? <Loader/> : <ProductList products={products}/>}
+                        </div>
+                        <div className='categories-item'>
+                            <div className='title-md'>
+                                <h3>Đề Xuất</h3>
+                            </div>
+                            {productStatus === STATUS.LOADING ? <Loader/> : <ProductList products={products}/>}
                         </div>
                     </div>
                 </div>

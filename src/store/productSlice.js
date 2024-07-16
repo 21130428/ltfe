@@ -74,13 +74,17 @@ const initialState = {
     productSingleStatus: STATUS.IDLE
 };
 
-export const fetchAsyncProducts = createAsyncThunk('product/fetch', async (limit) => {
+export const fetchAsyncProducts = createAsyncThunk('product/fetch',
+    async (limit) => {
     const response = await fetch(`${BASE_URL}products?limit=${limit}`);
     const data = await response.json();
-    return data.slice(0, limit);  // Adjust the response to respect the limit
+    return data.slice(0, limit);  //giới hạn số lượng sản phẩm
 });
 
-export const fetchAsyncProductSingle = createAsyncThunk('product-single/fetch', async (id) => {
+
+export const fetchAsyncProductSingle = createAsyncThunk('product-single/fetch',
+    //async để lấy dữ liệu
+    async (id) => {
     const response = await fetch(`${BASE_URL}products/${id}`);
     const data = await response.json();
     return data;
@@ -114,7 +118,7 @@ const productSlice = createSlice({
             });
     }
 });
-
+// trả ve state product được định nghĩa trong createslice lấy ra mảng all product
 export const getAllProducts = (state) => state.product.products;
 export const getAllProductsStatus = (state) => state.product.productsStatus;
 export const getProductSingle = (state) => state.product.productSingle;
