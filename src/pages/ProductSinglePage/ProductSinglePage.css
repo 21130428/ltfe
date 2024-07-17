@@ -462,94 +462,120 @@ input, textarea, select {
   background-color: #308ef9;
 }
 
-.navbar {
-  padding: 12px 50px;
+.product-single .product-single-content {
+  row-gap: 2rem;
+  padding: 12px;
+  margin-bottom: 86px;
 }
-.navbar .navbar-brand {
-  font-size: 2.4rem;
+@media screen and (min-width: 768px) {
+  .product-single .product-single-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+  }
 }
-.navbar .brand-and-toggler .sidebar-show-btn {
-  margin-right: 12px;
-  margin-top: 4px;
+.product-single .product-single-content .product-single-l .product-img .product-img-zoom {
+  height: 380px;
+  overflow: hidden;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs {
+  overflow-x: scroll;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs::-webkit-scrollbar {
+  height: 5px;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ff774d;
+  outline: 1px solid #FF6433;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item {
+  margin: 0 5px;
+  height: 120px;
+  border: 2px solid #fff;
   transition: all 300ms ease-in-out;
 }
-.navbar .brand-and-toggler .sidebar-show-btn:hover {
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item img {
+  transition: all 300ms ease-in-out;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item:first-child {
+  margin-left: 0;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item:last-child {
+  margin-right: 0;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item:hover {
+  border-color: #308ef9;
+}
+.product-single .product-single-content .product-single-l .product-img .product-img-thumbs .thumb-item:hover img {
+  transform: scale(0.9);
+}
+.product-single .product-single-content .product-single-r {
+  margin-top: 2rem;
+}
+.product-single .product-single-content .product-single-r .product-details .title {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #F2F2F2;
+}
+.product-single .product-single-content .product-single-r .product-details .para {
+  margin: 1rem 0;
   opacity: 0.9;
 }
-.navbar .navbar-collapse .navbar-search {
-  padding: 4px;
-  margin-left: 32px;
-  border-radius: 2px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+.product-single .product-single-content .product-single-r .product-details .info {
+  margin-bottom: 1.6rem;
 }
-.navbar .navbar-collapse .navbar-search .form-control {
-  width: 100%;
-  padding: 0 16px;
-  color: rgba(0, 0, 0, 0.8);
-  caret-color: #308ef9;
+.product-single .product-single-content .product-single-r .product-details .price {
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 2rem;
 }
-.navbar .navbar-collapse .navbar-search .form-control::placeholder {
-  font-size: 13.5px;
-  font-family: "Manrope", sans-serif;
-  letter-spacing: 0.5px;
+.product-single .product-single-content .product-single-r .product-details .price .old-price {
+  text-decoration: line-through;
 }
-.navbar .navbar-collapse .navbar-search .search-btn {
-  background-color: #308ef9;
-  width: 60px;
-  height: 32px;
+.product-single .product-single-content .product-single-r .product-details .price .discount {
+  padding: 0 0.8rem;
+  border-radius: 3px;
+  margin-left: 8px;
+  margin-top: 2px;
 }
-@media screen and (max-width: 576px) {
-  .navbar .navbar-collapse .navbar-search {
-    display: none;
-  }
+.product-single .product-single-content .product-single-r .product-details .qty .qty-change .qty-decrease, .product-single .product-single-content .product-single-r .product-details .qty .qty-change .qty-increase {
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
 }
-.navbar .navbar-collapse .navbar-nav {
-  margin-left: 32px;
-  margin-top: 8px;
+.product-single .product-single-content .product-single-r .product-details .qty .qty-change .qty-value {
+  width: 45px;
+  height: 28px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.navbar .navbar-collapse .navbar-nav .nav-item {
-  margin-right: 20px;
-  padding-right: 20px;
-  border-right: 1px solid #929292;
+.product-single .product-single-content .product-single-r .product-details .qty .qty-error {
+  padding: 2px 6px;
+  border-radius: 3px;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+.product-single .product-single-content .product-single-r .product-details .btns .btn {
+  height: 46px;
+  font-size: 15px;
+  border: 1px solid #308ef9;
+  padding: 0 1.8rem;
   transition: all 300ms ease-in-out;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  opacity: 0.95;
+.product-single .product-single-content .product-single-r .product-details .btns .btn-text {
+  text-transform: capitalize;
 }
-@media screen and (max-width: 992px) {
-  .navbar .navbar-collapse .navbar-nav {
-    display: none;
-  }
-}
-.navbar .navbar-cart {
-  margin-left: 32px;
-  height: 30px;
-  border-radius: 50%;
-  font-size: 2rem;
-}
-.navbar .navbar-cart .cart-btn {
-  position: relative;
-}
-.navbar .navbar-cart .cart-btn .cart-items-value {
-  position: absolute;
-  top: -10px;
-  right: -8px;
-  background-color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+.product-single .product-single-content .product-single-r .product-details .btns .btn:first-child {
+  background-color: #FFEEE8;
   color: #308ef9;
-  padding: 0 0.5rem;
-  width: 22px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.navbar .navbar-cart .cart-btn:hover .cart-modal {
-  opacity: 1;
-  visibility: visible;
+.product-single .product-single-content .product-single-r .product-details .btns .btn:last-child {
+  background-color: #308ef9;
+  color: white;
+}
+.product-single .product-single-content .product-single-r .product-details .btns .btn:hover {
+  opacity: 0.9;
 }
 
-/*# sourceMappingURL=Navigationbar.css.map */
+/*# sourceMappingURL=ProductSinglePage.css.map */

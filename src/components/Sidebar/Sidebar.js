@@ -15,7 +15,7 @@ const Sidebar = () => {
     }, [dispatch])
 
     return (
-        <aside className={`sidebar ${isSidebarOn ? 'hide-sidebar' : ""}`}>
+        <div className={`sidebar ${isSidebarOn ? 'hide-sidebar' : ""}`}>
             <button type = "button" className='sidebar-hide-btn' onClick={() => dispatch(setSidebarOff())}>
                 <i className='fas fa-times'></i>
             </button>
@@ -27,7 +27,7 @@ const Sidebar = () => {
                             return (
                                 <li key={idx}>
                                     <Link to={`category/${category}`} className='cat-list-link text-capitalize'>
-                                        {category.replace(" ","-")}
+                                        {category.replace("-"," ")}
                                     </Link>
                                 </li>
                             )
@@ -35,7 +35,7 @@ const Sidebar = () => {
                     }
                 </ul>
             </div>
-        </aside>
+        </div>
     )
 }
 

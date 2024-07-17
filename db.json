@@ -2,38 +2,109 @@
   "products":
   [
     {
-      "id": 1,
-      "category": "Electronics",
-      "images": [
-        "https://dongphuc-haianh.com/wp-content/uploads/2023/07/dong-phuc-mam-non-wonderkids-montessori-school.jpg",
-        "https://dongphuc-haianh.com/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-xanh-phoi-hong-dong-phuc-hai-anh.jpg"
+      "id": "1",
+      "title": "title",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
       ],
-      "title": "Smartphone",
-      "brand": "TechBrand",
-      "price": 699.99,
-      "discountedPrice": 599.99,
-      "discountedPercentage": 14
+      "discountedPercentage": 10,
+      "rating": 4.5
     },
     {
-      "id": 2,
-      "category": "Books",
-      "images": [
-        "https://example.com/image3.jpg"
+      "id": "2",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
       ],
-      "title": "Learn React",
-      "brand": "BookBrand",
-      "price": 29.99,
-      "discountedPrice": 19.99,
-      "discountedPercentage": 33
+      "discountedPercentage": 10
+    },
+    {
+      "id": "3",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+      ],
+      "discountedPercentage": 10
+    },
+    {
+      "id": "4",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+      ],
+      "discountedPercentage": 10
+    },
+    {
+      "id": "5",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+      ],
+      "discountedPercentage": 10
+    },
+    {
+      "id": "6",
+      "title": "áo",
+      "category": "beauty",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+      ],
+      "discountedPercentage": 10
+    },
+    {
+      "id": "7",
+      "category": "Đồng phục mầm non",
+      "brand": "hai",
+      "description": "mát",
+      "price": 300,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+      ],
+      "discountedPercentage": 10
     }
   ],
   "categories":
   [
-    "Động phục mầm non",
-    "Áo polo đồng phục",
-    "Áo thun đồng phục cổ tròn",
+    "Đồng phục mầm non",
     "Áo sơ mi công sở",
-    "Quần âu công sở"
+    "Quần âu công sở",
+    "Áo polo đồng phục",
+    "Áo thun đồng phục cổ tròn"
   ]
 }
-
