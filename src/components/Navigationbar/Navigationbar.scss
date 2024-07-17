@@ -1,5 +1,4 @@
 @import "../../App.scss";
-@import "../../App.scss";
 
 .navbar{
   padding: 12px 50px;
@@ -48,7 +47,9 @@
       margin-left: 32px;
       margin-top: 8px;
       .nav-item{
-        margin-right: 16px;
+        margin-right: 20px;
+        padding-right: 20px;
+        border-right: 1px solid $clr-gray;
         .nav-link{
           transition: $transition-ease;
           &:hover{

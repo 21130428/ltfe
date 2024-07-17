@@ -1,4 +1,3 @@
-
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { BASE_URL } from '../utils/apiURL';
 import { STATUS } from '../utils/status';
@@ -10,17 +9,13 @@ const initialState = {
     productSingleStatus: STATUS.IDLE
 };
 
-export const fetchAsyncProducts = createAsyncThunk('product/fetch',
-    async (limit) => {
+export const fetchAsyncProducts = createAsyncThunk('product/fetch', async (limit) => {
     const response = await fetch(`${BASE_URL}products?limit=${limit}`);
     const data = await response.json();
-    return data.slice(0, limit);  //giới hạn số lượng sản phẩm
+    return data.slice(0, limit);  // Adjust the response to respect the limit
 });
 
-
-export const fetchAsyncProductSingle = createAsyncThunk('product-single/fetch',
-    //async để lấy dữ liệu
-    async (id) => {
+export const fetchAsyncProductSingle = createAsyncThunk('product-single/fetch', async (id) => {
     const response = await fetch(`${BASE_URL}products/${id}`);
     const data = await response.json();
     return data;
