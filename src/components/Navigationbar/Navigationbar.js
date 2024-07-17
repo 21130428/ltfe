@@ -3,10 +3,13 @@ import "./Navigationbar.scss";
 import {Link} from "react-router-dom";
 import { useSelector, useDispatch} from 'react-redux';
 import { setSidebarOn } from '../../store/sidebarSlice';
+import { getAllCategories} from "../../store/categorySlice";
 
 const Navigationbar = () => {
 
     const dispatch = useDispatch();
+    const categories = useSelector(getAllCategories);
+    console.log(categories);
 
     return (
         <nav className='navbar'>
@@ -36,14 +39,20 @@ const Navigationbar = () => {
                         </div>
                     </div>
                     <ul className='navbar-nav flex align-center fs-12 fw-4 font-manrope'>
-                        <li className='nav-item no-wrap'>
-                            <Link to="" className='nav-link text-capitalize'>Categories</Link>
-                        </li>
+                        {
+                            categories.slice(0,8).map((category, idx) => (
+                                <li className='nav-item no-wrap' key={idx}>
+                                    <Link to={`category/${category}`} className='nav-link text-capitalize'>
+                                        {category.replace("-"," ")}
+                                    </Link>
+                                </li>
+                            ))
+                        }
                     </ul>
                 </div>
 
                 <div className='navbar-cart flex align-center'>
-                    <Link to="/cart" className='cart-btn'>
+                <Link to="/cart" className='cart-btn'>
                         <i className='fa-solid fa-cart-shopping'></i>
                         <div className='cart-items-value'>0</div>
                     </Link>
