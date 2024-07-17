@@ -5,8 +5,8 @@
       "id": 1,
       "category": "Electronics",
       "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
+        "https://dongphuc-haianh.com/wp-content/uploads/2023/07/dong-phuc-mam-non-wonderkids-montessori-school.jpg",
+        "https://dongphuc-haianh.com/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-xanh-phoi-hong-dong-phuc-hai-anh.jpg"
       ],
       "title": "Smartphone",
       "brand": "TechBrand",
@@ -25,20 +25,15 @@
       "price": 29.99,
       "discountedPrice": 19.99,
       "discountedPercentage": 33
-    },
-    {
-      "id": 3,
-      "category": "Clothing",
-      "images": [
-        "https://example.com/image4.jpg",
-        "https://example.com/image5.jpg"
-      ],
-      "title": "T-Shirt",
-      "brand": "FashionBrand",
-      "price": 19.99,
-      "discountedPrice": 14.99,
-      "discountedPercentage": 25
     }
+  ],
+  "categories":
+  [
+    "Động phục mầm non",
+    "Áo polo đồng phục",
+    "Áo thun đồng phục cổ tròn",
+    "Áo sơ mi công sở",
+    "Quần âu công sở"
   ]
 }
 
