@@ -17,7 +17,7 @@ const Product = ({product}) => {
                         <span>Thương Hiệu: </span>
                         <span className='fw-7'>{product?.brand}</span>
                     </div>
-                    <div className='title py-2'>
+                    <div className='title py-2 text-danger'>
                         {product?.title}
                     </div>
                     <div className='price flex align-center justify-center'>
@@ -25,7 +25,7 @@ const Product = ({product}) => {
               {formatPrice(product?.price)}
             </span>
                         <span className='new-price'>
-               {formatPrice(product?.price)}
+               {formatPrice(product?.price - (product?.price * product?.discountedPercentage / 100))}
             </span>
                         <span className='discount fw-6'>
               (-{product?.discountedPercentage}%)

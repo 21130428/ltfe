@@ -69,6 +69,9 @@ const ProductSinglePage = () => {
                                     {product?.title}
                                 </div>
                                 <div>
+                                    <div className='fs-20 fw-5 text-orange'>
+                                        Mô tả:
+                                    </div>
                                     <p className='para fw-3 fs-15'>
                                         {product?.description}
                                     </p>
@@ -92,8 +95,23 @@ const ProductSinglePage = () => {
                                     <div className='category'>
                                         <span className='text-orange fw-5'>Danh mục: </span>
                                         <span className='mx1'>
-                                            {product?.category ? product.category.replace("-"," ") :  ""}
+                                            {product?.category ? product.category : ""}
                                         </span>
+                                    </div>
+                                </div>
+                                <div className="price">
+                                    <div className='flex align-center'>
+                                        <div className='old-price text-gray'>
+                                            {formatPrice(product?.price)}
+                                        </div>
+                                    </div>
+                                    <div className='flex align-center my-1'>
+                                        <div className='new-price fw-5 font-poppins fs-24 text-orange'>
+                                            {formatPrice(product?.price - (product?.price * product?.discountedPercentage / 100))}
+                                        </div>
+                                        <div className='discount bg-orange fs-13 text-white fw-6 font-poppins'>
+                                            giảm {product?.discountedPercentage}%
+                                        </div>
                                     </div>
                                 </div>
                             </div>

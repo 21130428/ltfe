@@ -27,7 +27,7 @@ const Sidebar = () => {
                             return (
                                 <li key={idx}>
                                     <Link to={`category/${category}`} className='cat-list-link text-capitalize'>
-                                        {category.replace("-"," ")}
+                                        {category}
                                     </Link>
                                 </li>
                             )
