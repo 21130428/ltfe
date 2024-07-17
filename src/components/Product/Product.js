@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {formatPrice} from "../../utils/helpers";
 import "./Product.scss";
 
+
 const Product = ({product}) => {
     return (
         <Link to = {`/product/${product?.id}`} key = {product?.id}>
@@ -13,7 +14,7 @@ const Product = ({product}) => {
                 </div>
                 <div className='product-item-info fs-14'>
                     <div className='brand'>
-                        <span>Brand: </span>
+                        <span>Thương Hiệu: </span>
                         <span className='fw-7'>{product?.brand}</span>
                     </div>
                     <div className='title py-2'>
@@ -24,10 +25,10 @@ const Product = ({product}) => {
               {formatPrice(product?.price)}
             </span>
                         <span className='new-price'>
-              {formatPrice(product?.discountedPrice)}
+               {formatPrice(product?.price)}
             </span>
                         <span className='discount fw-6'>
-              ({product?.discountedPercentage}% Off)
+              (-{product?.discountedPercentage}%)
             </span>
                     </div>
                 </div>

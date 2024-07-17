@@ -49,7 +49,8 @@ const productSlice = createSlice({
             });
     }
 });
-
+// trả ve state product được định nghĩa trong createslice lấy ra mảng all product
+//lấy đc tất cả state bao bởi provider   stateRedux => callReducer => stateReducer
 export const getAllProducts = (state) => state.product.products;
 export const getAllProductsStatus = (state) => state.product.productsStatus;
 export const getProductSingle = (state) => state.product.productSingle;

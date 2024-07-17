@@ -1,0 +1,26 @@
+.slider-wrapper {
+  margin: 32px 0;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+.categories .categories-item {
+  margin-bottom: 4.8rem !important;
+}
+.categories .categories-item .title-md {
+  display: flex;
+  margin-bottom: 2.8rem;
+  text-align: center;
+}
+.categories .categories-item .title-md .title-l {
+  margin-top: 20px;
+  margin-right: 58%;
+  float: left;
+}
+.categories .categories-item .title-md .sort-option {
+  margin-right: -1000px;
+}
+
+/*# sourceMappingURL=ProductsPage.css.map */
