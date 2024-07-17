@@ -9,7 +9,6 @@ const Navigationbar = () => {
 
     const dispatch = useDispatch();
     const categories = useSelector(getAllCategories);
-    console.log(categories);
 
     return (
         <nav className='navbar'>
@@ -32,7 +31,7 @@ const Navigationbar = () => {
                     <div className='navbar-search bg-white'>
                         <div className='flex align-center'>
                             <input type="text" className='form-control fs-14'
-                                   placeholder='Search your preferred items here'/>
+                                   placeholder='Nhập tên sản phẩm'/>
                             <Link to="" className='text-white search-btn flex align-center justify-center'>
                                 <i className='fa-solid fa-magnifying-glass'></i>
                             </Link>

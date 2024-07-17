@@ -11,6 +11,7 @@ $clr-whitesmoke: #F5F5F5;
 $clr-dark: #212529;
 $clr-danger: #DC3545;
 $clr-gray: #929292;
+$clr-yellow: #eaea24;
 $font-family-manrope: 'Manrope', sans-serif;
 $font-family-poppins: 'Poppins', sans-serif;
 $transition-ease: all 300ms ease-in-out;
@@ -116,6 +117,7 @@ input, textarea, select{
   &-dark{color: $clr-dark;}
   &-gray{color: $clr-gray;}
   &-danger{color: $clr-danger;}
+  &-yellow{color: $clr-yellow;}
 }
 
 .bg{

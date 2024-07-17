@@ -163,6 +163,9 @@ input, textarea, select {
 .text-danger {
   color: #DC3545;
 }
+.text-yellow {
+  color: #eaea24;
+}
 
 .bg-orange {
   background-color: #308ef9;
