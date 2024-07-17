@@ -3,15 +3,16 @@ import './App.scss';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //components
-import Sidebar from "./components/Slider/HeaderSlider"
+// import Sidebar from "./components/Slider/HeaderSlider"
 import Header from "./components/Header/Header";
 import Menu from './components/Menu/Menu';
 import Footer from "./components/Footer/Footer";
 //pages
-import Home from "./pages/HomePage/HomePage"
+import Home from "./pages/HomePage/HomePage";
 
 import store from "./store/store";
 import {Provider} from "react-redux";
+import ProductsPage from "./pages/ProductsPage/ProductsPage";
 function App() {
     return (
         <div className="App">
@@ -19,9 +20,9 @@ function App() {
                 <BrowserRouter>
                     <Header />
                     <Menu/>
-                    <Sidebar/>
                     <Routes>
                         <Route path = "/" element={<Home/>}/>
+                        <Route path = "/ProductsPage" element={<ProductsPage/>}/>
                     </Routes>
                     <Footer/>
                 </BrowserRouter>

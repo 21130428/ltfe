@@ -1,15 +1,17 @@
 import React,{useEffect} from "react";
-import "./HomePage.scss";
-import Sidebar from "../../components/Slider/HeaderSlider";
+import "./ProductsPage.scss";
 import {useSelector,useDispatch} from "react-redux";
 import {getAllCategories} from "../../store/categorySlice";
 import ProductList from "../../components/ProductList/ProductList";
 import {fetchAsyncProducts, getAllProducts, getAllProductsStatus} from "../../store/productSlice";
 import Loader from "../../components/Loader/Loader";
 import {STATUS} from "../../utils/status";
-const HomePage = () =>{
+import Sort from "../../components/Sort/Sort";
+
+const ProductsPage = () =>{
     const dispatch = useDispatch();
     const categories = useSelector(getAllCategories);
+
 
     useEffect(()=>{
         console.log("Dispatching fetchAsyncProducts");
@@ -34,20 +36,19 @@ const HomePage = () =>{
     return (
         <main>
             <div className='slider-wrapper'>
-               < Sidebar/>
             </div>
             <div className='main-content bg-whitesmoke'>
                 <div className='container'>
                     <div className='categories py-5'>
                         <div className='categories-item'>
                             <div className='title-md'>
+                                <div className='title-l'>
                                 <h3>Sản phẩm mới nhất</h3>
+                                </div>
+                            <div className='sort-option'>
+                            <Sort />
                             </div>
-                            {productStatus === STATUS.LOADING ? <Loader/> : <ProductList products={tempProducts}/>}
-                        </div>
-                        <div className='categories-item'>
-                            <div className='title-md'>
-                                <h3>Đề Xuất</h3>
+
                             </div>
                             {productStatus === STATUS.LOADING ? <Loader/> : <ProductList products={tempProducts}/>}
                         </div>
@@ -57,4 +58,4 @@ const HomePage = () =>{
         </main>
     )
 }
-export default HomePage;
+export default ProductsPage;

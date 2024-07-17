@@ -8,8 +8,8 @@
         "https://firebasestorage.googleapis.com/v0/b/webbandongphuc.appspot.com/o/dongphuc1.jpg?alt=media&token=20fbe1d5-b2b2-44e2-a6bc-76677d5520e7"
       ],
       "title": "Đồng Phục Mầm Non 01",
-      "brand": "",
-      "price": 10000,
+      "brand": "Ao 3 lo",
+      "price": 170000,
       "discountedPrice": 1,
       "discountedPercentage": 14
     },
@@ -20,7 +20,7 @@
         "https://example.com/image3.jpg"
       ],
       "title": "Learn React",
-      "brand": "BookBrand",
+      "brand": "Ao Thun",
       "price": 10000,
       "discountedPrice": 10000,
       "discountedPercentage": 33
@@ -34,7 +34,7 @@
       ],
       "title": "T-Shirt",
       "brand": "FashionBrand",
-      "price": 10000,
+      "price": 90000,
       "discountedPrice": 5000,
       "discountedPercentage": 25
     }

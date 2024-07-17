@@ -11,13 +11,10 @@ const Menu = () => {
                     <Link to="/">Trang Chủ</Link>
                 </li>
                 <li className="menu-item">
-                    <Link to="/productpage">Sản Phẩm</Link>
+                    <Link to="/ProductsPage">Sản Phẩm</Link>
                 </li>
                 <li className="menu-item">
                     <Link to="/aboutus">Về Chúng Tôi</Link>
-                </li>
-                <li className="menu-item">
-                    <Link to="/news">Tin Tức</Link>
                 </li>
             </ul>
         </nav>
