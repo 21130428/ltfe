@@ -10,8 +10,7 @@
   padding: 2rem;
   transform: translateX(-100%);
   z-index: 1000;
-  transition: $transition-ease;
-
+  transition: transform 0.3s ease-in-out;
   .cat-title{
     padding-bottom: 1rem;
   }
