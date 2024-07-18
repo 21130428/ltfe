@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='vert-line'></div>
                     <Link to = "/TermService" className='text-uppercase'>điều khoản dịch vụ</Link>
                     <div className='vert-line'></div>
-                    <Link to = "/" className='text-uppercase'>Liên hệ</Link>
+                    <Link to = "/Contact" className='text-uppercase'>Liên hệ</Link>
                 </div>
             </div>
         </footer>

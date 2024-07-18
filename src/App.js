@@ -16,6 +16,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import store from "./store/store";
 import {Provider} from "react-redux";
 import TermService from "./pages/TermServicePage/TermServicePage";
+import Contact from "./pages/ContactPage/ContactPage";
 function App() {
     return (
         <div className="App">
@@ -34,6 +35,7 @@ function App() {
                         <Route path = "/register" element={<Register />} />
                         <Route path = "/PrivacyPolicy" element={<PrivacyPolicy />} />
                         <Route path = "/TermService" element={<TermService/>} />
+                        <Route path = "/Contact" element={<Contact/>} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
