@@ -20,11 +20,9 @@ const SearchPage = () => {
 
     if(searchProducts.length === 0){
         return (
-            <div className='container' style = {{
-                minHeight: "70vh"
-            }}>
-                <div className='fw-5 text-danger py-5'>
-                    <h3>No Products found.</h3>
+            <div className='container'>
+                <div className='not-found fw-5 text-danger py-5'>
+                    <h3>Không có thông tin sản phẩm.</h3>
                 </div>
             </div>
         )
@@ -34,9 +32,9 @@ const SearchPage = () => {
         <main>
             <div className='search-content bg-whitesmoke'>
                 <div className='container'>
-                    <div className='py-5'>
+                    <div className='founded py-5'>
                         <div className='title-md'>
-                            <h3>Search results:</h3>
+                            <h3>Kết quả tìm kiếm:</h3>
                         </div>
                         <br />
                         {

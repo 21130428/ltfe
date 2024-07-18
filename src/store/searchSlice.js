@@ -32,10 +32,10 @@ const searchSlice = createSlice({
     }
 })
 
-export const fetchAsyncSearchProduct = createAsyncThunk('product-search/fetch', async(searchTerm) => {
-    const response = await fetch(`${BASE_URL}products/search?q=${searchTerm}`);
+export const fetchAsyncSearchProduct = createAsyncThunk('product/fetch', async(searchTerm) => {
+    const response = await fetch(`${BASE_URL}products?title_like=${searchTerm}`);
     const data = await response.json();
-    return data.products;
+    return data;
 });
 
 export const { setSearchTerm, clearSearch } = searchSlice.actions;
