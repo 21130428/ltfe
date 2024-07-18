@@ -42,12 +42,64 @@ const cartSlice = createSlice({
                 state.carts = tempCart;
                 storeInLocalStorage(state.carts);
             }else {
-                // action chỉ đơn giản là biểu thị một sự kiện hoặc thay đổi trạng thái mà không cần thêm thông tin cụ thể.
-                state.carts.push(action.payload)
+
+                state.carts.push(action.payload);
+                storeInLocalStorage(state.carts);
 
             }
+        },
+        removeFromCart:(state, action) =>{
+            const tempCart = state.carts.filter(item => item.id !== action.payload.id);
+            state.carts = tempCart;
+            storeInLocalStorage(state.carts);
+        },
+        clearCart:(state, action) =>{
+            state.carts = [];
+            storeInLocalStorage(state.carts);
+
+        },
+        getCartTotal:(state) =>{
+            state.totalAmount = state.carts.reduce((
+                cartTotal,cartItem) => {
+                return cartTotal += cartItem.totalPrice
+                },0);
+            state.itemsCount = state.carts.length;
+
+        },
+        toggleCartQty: (state, action) =>{
+            const tempCart = state.carts.filter(item => {
+                if(item.id === action.payload.id){
+                    let temQty = item.quantity;
+                    let tempTotalPrice = item.totalPrice;
+
+                    if(action.payload.type === "INC"){
+                        tempQty++;
+                        if(temQty === item.stock) temQty=item.stock;
+                        tempTotalPrice = tempQty * item.discountedPrice;
+                    }
+                    if(action.payload.type === "DEC"){
+                        temQty--;
+                        if (temQty < 1) temQty =1;
+                        tempTotalPrice = tempQty*item.discountedPrice;
+
+                    }
+                    return{...item, quality: temQty,totalPrice: tempTotalPrice};
+                }else {return item;}
+            });
+            state.carts = tempCart;
+            storeInLocalStorage(state.carts);
+        },
+        setCartMessageOn: (state) => {
+            state.isCartMessageOn = true;
+        },
+        setCartMessageOff: (state) => {
+            state.isCartMessageOn = false;
         }
+
     }
 });
-export  const {addToCart} = cartSlice.actions;
+export  const {addToCart, setCartMessageOff, setCartMessageOn,getCartTotal, toggleCartQty} = cartSlice.actions;
+export const getAllCarts = (state) => state.cart.carts;
+export const getCartItemsCount = (state) => state.cart.itemsCount;
+export const getCartMessageStatus = (state) => state.cart.isCartMessageOn;
 export  default cartSlice.reducer;
