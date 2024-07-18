@@ -12,8 +12,10 @@ import Register from "./pages/RegisterPage/RegisterPage";
 import CategoryProduct from "./pages/CategoryProductPage/CategoryProductPage";
 import ProductSingle from "./pages/ProductSinglePage/ProductSinglePage";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
+import PrivacyPolicy from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import store from "./store/store";
 import {Provider} from "react-redux";
+import TermService from "./pages/TermServicePage/TermServicePage";
 function App() {
     return (
         <div className="App">
@@ -30,6 +32,8 @@ function App() {
                         <Route path = "/search/:searchTerm" element = {<Search />} />
                         <Route path = "/login" element={<Login/>}/>
                         <Route path = "/register" element={<Register />} />
+                        <Route path = "/PrivacyPolicy" element={<PrivacyPolicy />} />
+                        <Route path = "/TermService" element={<TermService/>} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
