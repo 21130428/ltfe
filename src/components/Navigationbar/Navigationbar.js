@@ -19,6 +19,12 @@ const Navigationbar = () => {
 
     const dispatch = useDispatch();
     const categories = useSelector(getAllCategories);
+    const [searchTerm, setSearchTerm] = useState("");
+
+    const handleSearchTerm = (e) => {
+        e.preventDefault();
+        setSearchTerm(e.target.value);
+    }
 
     return (
         <nav className='navbar'>
@@ -41,8 +47,8 @@ const Navigationbar = () => {
                     <div className='navbar-search bg-white'>
                         <div className='flex align-center'>
                             <input type="text" className='form-control fs-14'
-                                   placeholder='Nhập tên sản phẩm'/>
-                            <Link to="" className='text-white search-btn flex align-center justify-center'>
+                                   placeholder='Nhập tên sản phẩm' onChange={(e) => handleSearchTerm(e)}/>
+                            <Link to = {`search/${searchTerm}`} className='text-white search-btn flex align-center justify-center'>
                                 <i className='fa-solid fa-magnifying-glass'></i>
                             </Link>
                         </div>

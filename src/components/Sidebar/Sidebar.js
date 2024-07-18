@@ -25,7 +25,7 @@ const Sidebar = () => {
                     {
                         categories.map((category, idx) => {
                             return (
-                                <li key={idx}>
+                                <li key={idx} onClick={() => dispatch(setSidebarOff())}>
                                     <Link to={`category/${category}`} className='cat-list-link text-capitalize'>
                                         {category}
                                     </Link>

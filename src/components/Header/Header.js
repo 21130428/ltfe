@@ -12,23 +12,7 @@ const Header = () => {
                         <div className='header-cnt-top-l'>
                             <ul className='flex top-links align-center'>
                                 <li>
-                                    <Link to="/seller">WEB BÁN ĐỒNG PHỤC</Link>
-                                </li>
-                                <li className='vert-line'></li>
-                                <li className='flex align-center'>
-                                    <span className='fs-13'>Follow us on</span>
-                                    <ul className='social-links flex align-center'>
-                                        <li className='mx-2'>
-                                            <a href="" className='fs-15'>
-                                                <i className='fab fa-facebook'></i>
-                                            </a>
-                                        </li>
-                                        <li className='mx-2'>
-                                            <a href="" className='fs-15'>
-                                                <i className='fab fa-instagram'></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <Link to="/">WEB BÁN ĐỒNG PHỤC</Link>
                                 </li>
                             </ul>
                         </div>
@@ -44,13 +28,13 @@ const Header = () => {
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
-                                    <Link to = "/">
+                                    <Link to = "/register">
                                         <span className='top-link-itm-txt'>Đăng kí</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
-                                    <Link to = "/">
+                                    <Link to = "/login">
                                         <span className='top-link-itm-txt'>Đăng nhập</span>
                                     </Link>
                                 </li>
