@@ -12,7 +12,7 @@ const Header = () => {
                         <div className='header-cnt-top-l'>
                             <ul className='flex top-links align-center'>
                                 <li>
-                                    <Link to="/seller">WEB BÁN ĐỒNG PHỤC</Link>
+                                    <Link to="/">WEB BÁN ĐỒNG PHỤC</Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li className='flex align-center'>
@@ -44,13 +44,13 @@ const Header = () => {
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
-                                    <Link to = "/">
+                                    <Link to = "/register">
                                         <span className='top-link-itm-txt'>Đăng kí</span>
                                     </Link>
                                 </li>
                                 <li className='vert-line'></li>
                                 <li>
-                                    <Link to = "/">
+                                    <Link to = "/login">
                                         <span className='top-link-itm-txt'>Đăng nhập</span>
                                     </Link>
                                 </li>
