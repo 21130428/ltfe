@@ -22,10 +22,9 @@ const Product = ({product}) => {
                     </div>
                     <div className='price flex align-center justify-center'>
             <span className='old-price'>
-              {formatPrice(product?.price)}
             </span>
                         <span className='new-price'>
-               {formatPrice(product?.price - (product?.price * product?.discountedPercentage / 100))}
+                  {formatPrice(product?.price)}
             </span>
                         <span className='discount fw-6'>
               (-{product?.discountedPercentage}%)

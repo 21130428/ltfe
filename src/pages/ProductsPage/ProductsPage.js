@@ -15,7 +15,7 @@ const ProductsPage = () =>{
 
     useEffect(()=>{
         console.log("Dispatching fetchAsyncProducts");
-        dispatch(fetchAsyncProducts(3))
+        dispatch(fetchAsyncProducts(20))
     },[]);
     const products = useSelector(getAllProducts);
     console.log(products);
@@ -43,7 +43,7 @@ const ProductsPage = () =>{
                         <div className='categories-item'>
                             <div className='title-md'>
                                 <div className='title-l'>
-                                <h3>Sản phẩm mới nhất</h3>
+                                <h3>Tất Cả Sản phẩm </h3>
                                 </div>
                             <div className='sort-option'>
                             <Sort />

@@ -4,8 +4,18 @@ import {Link} from "react-router-dom";
 import { useSelector, useDispatch} from 'react-redux';
 import { setSidebarOn } from '../../store/sidebarSlice';
 import { getAllCategories} from "../../store/categorySlice";
+import {getAllCarts, getCartItemsCount, getCartTotal} from "../../store/cartSlice";
 
 const Navigationbar = () => {
+
+    //cart
+    const carts = useSelector(getAllCarts);
+    const itemsCount = useSelector(getCartItemsCount);
+
+    console.log(itemsCount);
+    useEffect(()=>{
+        dispatch(getCartTotal());
+    },[carts])
 
     const dispatch = useDispatch();
     const categories = useSelector(getAllCategories);
@@ -53,7 +63,7 @@ const Navigationbar = () => {
                 <div className='navbar-cart flex align-center'>
                 <Link to="/cart" className='cart-btn'>
                         <i className='fa-solid fa-cart-shopping'></i>
-                        <div className='cart-items-value'>0</div>
+                        <div className='cart-items-value'>{itemsCount}</div>
                     </Link>
                 </div>
             </div>

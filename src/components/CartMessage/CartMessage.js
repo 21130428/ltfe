@@ -8,7 +8,7 @@ const CartMessage = () => {
             <div className='cart-message-icon'>
                 <img src = {correct} alt = "" />
             </div>
-            <h6 className='text-white fs-14 fw-5'>Sản phẩm đã được thêm vào giỏ hàng.</h6>
+            <h6 className='text-white fs-14 fw-5'>Đã thêm sản phẩm thành công </h6>
         </div>
     )
 }

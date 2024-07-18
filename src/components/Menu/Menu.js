@@ -14,7 +14,7 @@ const Menu = () => {
                     <Link to="/ProductsPage">Sản Phẩm</Link>
                 </li>
                 <li className="menu-item">
-                    <Link to="/aboutus">Về Chúng Tôi</Link>
+                    <Link to="/aboutus">Giới thiệu </Link>
                 </li>
             </ul>
         </nav>
