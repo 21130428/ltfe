@@ -3,100 +3,859 @@
   [
     {
       "id": "1",
-      "title": "title",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Mẫu Áo Đồng Phục Mầm Non Trường Hữu Nghị Màu Tím",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Áo đồng phục mầm non của Trường Hữu Nghị với màu tím là một lựa chọn độc đáo và trẻ trung, tạo nên sự nổi bật trong môi trường học tập của trẻ nhỏ. Với màu tím tươi sáng, áo đồng phục mầm non của Trường Hữu Nghị mang đến sự sáng tạo và phong cách. Màu tím tượng trưng cho sự quý phái, tinh tế và sự sáng suốt. Nó tạo ra một diện mạo độc đáo và thu hút sự chú ý từ các bé.",
+      "price": 200000,
+      "stock": 10,
       "images":
       [
         "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
         "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-mau-tim.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-truong-huu-nghi.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-truong-huu-nghi-mau-tim.jpg"
       ],
       "discountedPercentage": 10,
-      "rating": 4.5
+      "rating": 4.8
     },
     {
       "id": "2",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Mẫu Đồng Phục Mầm Non Trường Việt Anh – BVIS",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Mẫu đồng phục mầm non của Trường Việt Anh – BVIS với màu xanh phối đỏ nhẹ nhàng là sự lựa chọn hoàn hảo cho môi trường học tập của trẻ nhỏ. Với sự kết hợp màu xanh phối đỏ nhẹ nhàng, mẫu đồng phục mầm non Việt Anh mang đến sự tươi sáng và bắt mắt. Màu xanh tượng trưng cho sự tươi mới, sự sáng tạo và sự thân thiện. Màu đỏ nhẹ nhàng tạo nên điểm nhấn, tạo sự nổi bật và tăng thêm vẻ sinh động cho đồng phục mầm non trường BVIS  .",
+      "price": 250000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-truong-viet-anh-bvis.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-truong-viet-anh-bvis.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-mam-non-truong-viet-anh-bvis.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-co-tron-dong-phuc-mam-non-truong-viet-anh-bvis.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-dong-phuc-mam-non-truong-viet-anh-bvis.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 10,
+      "rating": 4.9
     },
     {
       "id": "3",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Mẫu Đồng Phục Mầm Non Có Cổ Màu Đỏ Phối Trắng",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Mẫu đồng phục mầm non với cổ màu đỏ phối trắng là một lựa chọn tuyệt vời cho trường mầm non, mang đến sự tươi sáng và nổi bật trong môi trường học tập của trẻ nhỏ. Với cổ áo được thiết kế màu đỏ phối trắng, mẫu đồng phục mầm non tạo nên sự độc đáo và bắt mắt. Màu đỏ tượng trưng cho sự năng động, sự đam mê và sự sôi nổi của tuổi thơ. Màu trắng tạo ra sự tinh khôi và thanh lịch, tăng thêm vẻ trong trẻo và dịu dàng cho trang phục.",
+      "price": 260000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-co-co-do-phoi-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-polo-dong-phuc-mam-non.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-dong-phuc-mam-non-polo-do-phoi-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-mam-non-co-co-do-phoi-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-dong-phuc-mam-non-co-co-do-phoi-trang.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 10,
+      "rating": 4.8
     },
     {
       "id": "4",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Mẫu Áo Đồng Phục Mầm Non Trắng Phối Kẻ Đen Vàng",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải anh",
+      "description": "Mẫu áo đồng phục mầm non trắng phối kẻ đen vàng là sự kết hợp độc đáo và phong cách giữa màu trắng thanh lịch và các họa tiết kẻ đen vàng, tạo nên một diện mạo đẹp mắt và nổi bật cho các bé. Đây là lựa chọn hoàn hảo cho trường mầm non và nhà trẻ, mang đến không gian tươi sáng và sự phấn khởi cho các em.",
+      "price": 300000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-trang-phoi-ke-den-vang-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-trang-phoi-ke-den-vang-dong-phuc-hai-anh.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 15,
+      "rating": 4.7
     },
     {
       "id": "5",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Đồng Phục Mầm Non Trường WonderKids Montessori",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Đồng phục mầm non của Trường WonderKids Montessori School được thiết kế đặc biệt với màu đỏ phối đen và kẻ. Đây là một bộ đồng phục thú vị và bắt mắt cho các bé, mang đến sự tươi sáng và độc đáo trong môi trường học tập. Với màu sắc đỏ phối đen và kẻ, đồng phục của Trường WonderKids Montessori School tạo nên sự nổi bật và cá nhân hóa cho học sinh mầm non. Màu đỏ tượng trưng cho sự năng động, sáng tạo và đam mê trong việc khám phá thế giới xung quanh. Kẻ độc đáo trên áo giúp tăng thêm sự vui tươi và sinh động cho trang phục.",
+      "price": 260000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-mam-non-wonderkids-montessori-school.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-mam-non-truong-quoc-te-wonderkids-montessori-school.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-wonderkids-montessori-school.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-do-phoi-ke-truong-quoc-te-wonderkids-montessori-school.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/dong-phuc-mam-non-do-phoi-ke-truong-quoc-te-wonderkids-montessori-school.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 10,
+      "rating": 4.8
     },
     {
       "id": "6",
-      "title": "áo",
-      "category": "beauty",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "title": "Mẫu Áo Đồng Phục Mầm Non Có Cổ Màu Cam",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Trong thế giới đầy màu sắc và ấm áp của mầm non, bức tranh rực rỡ và đáng yêu được tạo nên bởi những chiếc đồng phục mầm non có cổ màu cam đã nhen nhóm hồn thơ của những thiên thần nhỏ. Màu cam tươi mát và tinh khôi như ánh nắng ban mai, cùng với kiểu dáng cổ polo đáng yêu, tạo nên một hình ảnh đáng nhớ và đầy cuốn hút. Đây không chỉ là những bộ trang phục đáng yêu, mà còn là biểu tượng của sự phấn khích, tinh thần đoàn kết và sự trưởng thành dần dần của các học viên nhỏ bé. Hãy cùng nhau khám phá thêm về sự đáng yêu và ý nghĩa đằng sau những chiếc đồng phục màu cam này.",
+      "price": 300000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/dong-phuc-mam-non-co-co-mau-cam.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-co-co-mau-cam.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/ao-polo-dong-phuc-mam-non-mau-cam.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-mau-cam-co-co.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 10,
+      "rating": 4.7
     },
     {
       "id": "7",
+      "title": "Mẫu Áo Đồng Phục Mầm Non Trắng Lé Xanh",
       "category": "Đồng phục mầm non",
-      "brand": "hai",
-      "description": "mát",
-      "price": 300,
+      "brand": "Hải Anh",
+      "description": "Mẫu đồng phục mầm non trắng lé xanh là một lựa chọn tuyệt vời cho các trường mầm non và nhà trẻ. Đồng phục này được thiết kế với màu sắc trắng tinh khôi kết hợp với họa tiết lé xanh nhẹ nhàng, tạo nên một phong cách trẻ trung, trong sáng và gần gũi với thiên nhiên.",
+      "price": 300000,
+      "stock": 10,
       "images":
       [
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
-        "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg"
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-trang-le-xanh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-trang-le-xanh.jpg"
       ],
-      "discountedPercentage": 10
+      "discountedPercentage": 15,
+      "rating": 4.9
+    },
+    {
+      "id": "8",
+      "title": "Mẫu Áo Đồng Phục Mầm Non Có Cổ Màu Trắng Phối Nâu",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo đồng phục mầm non có cổ màu trắng phối nâu là một lựa chọn độc đáo và thanh lịch cho các trường mầm non và nhà trẻ hay cấp 1. Áo đồng phục này được thiết kế với màu sắc chủ đạo là trắng tinh khôi, kết hợp với các chi tiết màu nâu pha phối trên tay và cổ áo, tạo nên một phong cách sang trọng và trẻ trung.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-ao-dong-phuc-mam-non-co-co-mau-trang-phoi-nau-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-ao-dong-phuc-mam-non-co-co-mau-trang-phoi-nau-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.8
+    },
+    {
+      "id": "9",
+      "title": "Mẫu Áo Đồng Phục Mầm Non Có Cổ Màu Xanh Tím Than",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Được mệnh danh là kiểu áo dành cho các trường quốc tế, mẫu áo đồng phục mầm non có cổ màu xanh tím than là sự kết hợp hoàn hảo giữa sự trẻ trung và tinh thần trưởng thành Với sự tinh tế trong từng đường may và sự tương phản màu sắc độc đáo, mẫu áo này không chỉ là một trang phục đơn thuần mà còn là biểu tượng thể hiện sự phấn đấu và phát triển của các bé mầm non hay tiểu học.",
+      "price": 360000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/dong-phuc-mam-non-co-co-mau-xanh-tim-than.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/ao-dong-phuc-mam-non-co-co-mau-xanh-tim-than.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/ao-polo-dong-phuc-mam-non-mau-xanh-tim-than.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-mau-xanh-tim-than-co-co.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.9
+    },
+    {
+      "id": "10",
+      "title": "Mẫu Áo Đồng Phục Mầm Non Màu Trắng Có Cổ",
+      "category": "Đồng phục mầm non",
+      "brand": "Hải Anh",
+      "description": "Nhắc đến mẫu áo đồng phục mầm non, không thể không đề cập đến chiếc áo màu trắng có cổ đầy thuần khiết và đáng yêu. Mẫu áo này đã từng thu hút sự quan tâm và đánh giá cao từ phía các phụ huynh và giáo viên, nhờ vào sự kết hợp hoàn hảo giữa thiết kế tinh tế và chất liệu đồng phục chất lượng.",
+      "price": 360000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/ao-dong-phuc-mam-non-co-co-mau-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-co-co-mau-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/ao-polo-dong-phuc-mam-non-mau-trang.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/06/mau-dong-phuc-mam-non-mau-trang-co-co.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.8
+    },
+    {
+      "id": "11",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Xanh Ngắn Tay Phong Vu",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu xanh ngắn tay là một item không thể thiếu cho những người đang kiếm tìm diện mạo thanh lịch, chuyên nghiệp. Với chất liệu vải may cao cấp, sở hữu độ bóng đẹp, áo sơ mi đồng phục giúp tôn lên vẻ đẹp sang trọng, trang nhã và tạo ra sự thoải mái nhất định cho người mặc. ",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-dong-phuc-mau-xanh-ngan-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-mau-xanh-ngan-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-dong-phuc-mau-xanh-ngan-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-mau-xanh-ngan-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-so-mi-mau-xanh-ngan-tay-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Xanh Dài Tay",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu xanh dài tay hiện đang là sản phẩm bán chạy nhất tại Đồng phục Hải Anh. Với thiết kế hiện đại, trẻ trung nhưng không kém phần thanh lịch, trang nhã, đặc biệt phù hợp với môi trường công sở. Bộ trang phục nhanh chóng trở thành sự lựa chọn hàng đầu trên thị trường áo đồng phục công sở của nhiều doanh nghiệp.",
+      "price": 300000,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-mau-xanh-dai-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-dong-phuc-mau-xanh-dai-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-dong-phuc-mau-xanh-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/dong-phuc-ao-so-mi-mau-xanh-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-dong-phuc-mau-xanh-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "13",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Xanh Đen – VIETABANK",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu xanh đen VietABank gây ấn tượng bởi thiết kế thanh lịch, trang nhã cùng màu sắc độc đáo, bắt mắt. Sự tinh xảo trong từng đường kim mũi chỉ, kết hợp với phong cách trẻ trung. Mẫu trang phục này hứa hẹn sẽ là item hot trend trong thời gian sắp tới.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-dong-phuc-ao-so-mi-mau-xanh-den-vietabank-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-mau-xanh-den-vietabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/dong-phuc-ao-so-mi-nu-mau-xanh-dai-tay-vietabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-nam-mau-xanh-dai-tay-vietabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-dong-phuc-mau-xanh-den-vietabank-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "14",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Trắng Ngắn Tay – VCCORP",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu trắng ngắn tay VCCorp nổi bật với phong cách thanh lịch, hiện đại cùng màu trắng tinh khôi. Sự tỉ mỉ và chăm chút trong từng đường chỉ, cắt may đã thành công tạo nên mẫu áo sơ mi đồng phục có tính thẩm mỹ cao nhưng vẫn đảm bảo sự thoải mái, thoáng mát.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-tay-ngan-mau-trang-vcorp-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-tay-ngan-mau-trang-vcorp-cua-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-nu-tay-ngan-mau-trang-vcorp-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-so-mi-nam-tay-ngan-mau-trang-vcorp-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "15",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Vàng Ngắn Tay – CENLAND",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Ngay từ thời điểm chính thức trình làng, mẫu áo sơ mi đồng phục màu vàng ngắn tay Celand đã nhận được sự đón nhận và yêu thích từ đông đảo khách hàng. Với phong cách thanh lịch, trang nhã, màu vàng nhạt nhẹ nhàng, item này vừa giúp tôn lên vẻ đẹp sang trọng vừa tạo sự hút đặc biệt với người đối diện.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-mau-vang-cenland-cua-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-dong-phuc-ao-so-mi-tay-ngan-mau-vang-cenlan-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-dong-phuc-nam-so-mi-tay-ngan-mau-vang-cenland-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/dong-phuc-ao-so-mi-tay-ngan-mau-vang-cenland-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-mau-vang-tay-ngan-cenland-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "16",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Trắng Ngắn Tay – Nam Á Bank",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu trắng ngắn tay Nam Á Bank gây ấn tượng bởi vẻ đẹp thanh lịch và sang trọng. Từng đường kim, mũi chỉ trên chiếc áo đồng phục đều được chăm chút một cách kỹ lưỡng. Thể hiện tính chuyên nghiệp trong tác phong làm việc của doanh nghiệp, đồng thời mang đến sự tự tin cho đội ngũ nhân viên. ",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-dong-phuc-so-mi-tay-ngan-mau-trang-namabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-dong-phuc-so-mi-nu-tay-ngan-mau-trang-namabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-dong-phuc-so-mi-nam-tay-ngan-mau-trang-namabank-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.7
+    },
+    {
+      "id": "17",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Hồng Dài Tay",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục màu hồng dài tay để lại một dấu ấn mạnh mẽ với người nhìn bởi thiết kế sang trọng, tinh tế trong từng chi tiết. Áo sơ mi đồng phục này mang phong cách tươi sáng, trẻ trung sẽ tạo niềm hứng khởi và sự tự tin cho nhân viên mỗi khi làm việc.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-mau-hong-dai-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/ao-so-mi-dong-phuc-mau-hong-dai-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/so-mi-nam-dong-phuc-mau-hong-dai-tay-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "18",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Màu Đỏ Kẻ Trắng Dài Tay",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục Hải Anh xin giới thiệu đến quý khách hàng mẫu áo sơ mi đồng phục màu đỏ kẻ trắng dài tay thanh lịch, trẻ trung dành cho nhân viên văn phòng, công sở. Thiết kế kiểu áo sơ mi kẻ sọc màu đỏ và trắng phối với mảng màu trắng ở cổ áo tạo nên một tổng thể hài hóa, mang lại vẻ đẹp chuyên nghiệp, trang nhã cho nhân viên công sở. ",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/thiet-ke-ao-dong-phuc-so-mi-ke-soc-dai-tay-mau-do-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-dong-phuc-so-mi-nam-mau-do-ke-soc-dai-tay-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/03/mau-ao-so-mi-dong-phuc-nu-ke-soc-mau-do-dai-tay-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "19",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Tpbank Màu Tím",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục của TPBank màu tím là biểu tượng của sự sang trọng và đẳng cấp của ngân hàng. Màu tím không chỉ tạo nên sự nổi bật mà còn thể hiện sự sáng tạo và tinh tế. Áo sơ mi này không chỉ là trang phục công sở mà còn là biểu tượng của phong cách cá nhân, giúp nhân viên TPBank tỏa sáng trong môi trường làm việc và giao tiếp với khách hàng.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/mau-ao-so-mi-dong-phuc-cong-so-tpbank-mau-tim-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/mau-dong-phuc-so-mi-cong-so-tpbank-mau-tim-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "20",
+      "title": "Mẫu Áo Sơ Mi Đồng Phục Vietcombank Màu Trắng",
+      "category": "Áo sơ mi công sở",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo sơ mi đồng phục của Vietcombank màu trắng là sự kết hợp tinh tế giữa truyền thống và hiện đại. Màu trắng nhẹ nhàng, tinh khôi tạo nên một hình ảnh thanh lịch và chuyên nghiệp, phản ánh sự tin tưởng và sự minh bạch trong hoạt động ngân hàng. Áo sơ mi này không chỉ mang đến sự thoải mái cho nhân viên mà còn là biểu tượng của sự đồng đội và thương hiệu vững mạnh.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/ao-so-mi-dong-phuc-cong-so-vietcombank-mau-trang-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/mau-ao-so-mi-dong-phuc-vietcombank-mau-trang-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/dong-phuc-cong-so-so-mi-vietcombank-mau-trang-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "21",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Xám",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở xám- không chỉ mang phong cách công sở sang trọng mà còn mang phong cách trẻ trung, năng động. Quần âu nam được cánh mày râu như một trang phục tất yếu. Sau đây là một số đánh giá chi tiết về mẫu quần này của đồng phục Hải Anh.",
+      "price": 400000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-10.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-10.jpg"
+      ],
+      "discountedPercentage": 30,
+      "rating": 4.8
+    },
+    {
+      "id": "22",
+      "title": "Đồng Phục Quần Âu Nam Công Sở Màu Be Phong Cách Hàn Quốc",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở màu be phong cách Hàn Quốc được nhiều công ty lựa chọn và yêu thích. Đồng phục công sở thể hiện sự đoàn kết, hòa đồng, không phân biệt trong tập thể. Ngoài ra khi nhìn vào đồng phục của một doanh nghiệp người ta có thể biết bạn là ai, công việc ra sao.",
+      "price": 450000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-9.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-9.jpg"
+      ],
+      "discountedPercentage": 30,
+      "rating": 4.8
+    },
+    {
+      "id": "23",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Màu Đen Than",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở màu đen than được rất nhiều công ty ưa chuộng và chọn mặt gửi vàng. Ngoài việc sở hữu những chiếc áo đồng phục thì những chiếc quần âu nam đồng phục cũng giúp công ty quảng bá hình ảnh đến khách hàng.",
+      "price": 450000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-8.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-8.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.8
+    },
+    {
+      "id": "24",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Phong Cách Hàn Quốc",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở phong cách Hàn Quốc là trang phục đi làm được phái mạnh yêu thích với sự hiện đại và thời thượng. Mẫu quần này cũng được nhiều idol hàng đầu xứ sở kim chi lựa chọn với đa dạng nhiều kiểu dáng khác nhau.",
+      "price": 380000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-7.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-7.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.9
+    },
+    {
+      "id": "25",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Đen Ống Côn",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở đen ống côn – Sự đồng nhất trong cách ăn mặc của nhân viên trong các doanh nghiệp được xem là cách quảng cáo tốt nhất cho hình ảnh của tổ chức. Bên cạnh áo đồng phục cơ bản thì đồng phục quần âu nam công sở đen ống côn cũng là lựa chọn không tồi.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-6.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-6.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.7
+    },
+    {
+      "id": "26",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Trắng Ống Suông",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở trắng ống suông – Từ lâu quần âu là trang phục không thể thiếu đối với môi trường công sở dù là phái mạnh hay phái đẹp. Mẫu quần âu nam công sở trắng ống suông là một lựa chọn hoàn hảo cho các quý ông công sở.",
+      "price": 320000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-3-687x768.jpg ",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-3-687x768.jpg "
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.7
+    },
+    {
+      "id": "27",
+      "title": "Mẫu Đồng Phục Quần Âu Nam Công Sở Xám Ống Đứng",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Đồng phục quần âu nam công sở xám ống đứng – Trong xu hướng hiện nay không một doanh nghiệp nào có thể đứng ngoài khỏi sự ảnh hưởng của việc đồng nhất ngoại hình, cách ăn mặc. Nắm được xu thế đó, Đồng phục Hải Anh mang đến một mẫu quần âu nam công sở xám ống đứng được ưa thích nhất hiện nay.",
+      "price": 320000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-1-687x768.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/san-pham-ao-quan-au-nam-1-687x768.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.6
+    },
+    {
+      "id": "28",
+      "title": "Mẫu Quân Tây Công Sở Nam Trẻ Trung",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Bên cạnh những bộ đồng phục lịch sự, thì lựa chọn những loại trang phục khác cũng được chú trọng và những mẫu quần âu công sở nam càng phải được xem là lựa chọn hàng đầu. Hiểu được điều này đồng phục Hải Anh vưà cho ra mắt dòng sản phẩm quần âu công sở nam hứa hẹn cực hót cho chiến dịch lần này",
+      "price": 350000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-tay-cong-so-nam.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-tay-cong-so-nam.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.8
+    },
+    {
+      "id": "29",
+      "title": "Sản Phẩm Quần Âu Công Sở Nam Màu Xanh",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Ngày nay, bên cạnh thời trang công sở của nữ thì thời trang công sở nam ngày càng được quan tâm không chỉ với khách hàng là nam giới mà khách hàng nữ giới cũng quan tâm bởi họ muốn bạn bè cũng như người thân trong gia đình họ xuất hiện tai cơ quan với ngoại hình chỉn chu, tinh tế. Hiểu được điều đó đồng phục Hải Anh trân trọng gửi tới khách hàng bộ sưu tập mới dành riêng cho nam giới và đặc biệt là chiếc quần âu công sở nam.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-au-cong-so-nam-2-1.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-au-cong-so-nam-2-1.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.7
+    },
+    {
+      "id": "30",
+      "title": "Mẫu Quần Âu Công Sở Nam Màu Mận Lịch Sự",
+      "category": "Quần âu công sở",
+      "brand": "Hải Anh",
+      "description": "Quần âu công sở nam màu mận được thiết kế dựa trên nền tảng sáng tạo và sự nhiệt huyết của các nhà thiết kế trẻ. Mang phong cách Âu hóa, những mẫu thiết kế này đều giúp phái mạnh tôn lên vóc dáng chuẩn của mình và ghi điểm trong mắt phái nữ.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-au-cong-so-1.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/06/quan-au-cong-so-1.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "31",
+      "title": "Mẫu Áo Đồng Phục Công Ty Cổ Đức Cách Điệu",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Bắt kịp xu hướng thị trường với phong cách đơn giản, màu sắc bắt mắt thanh lịch và trẻ trung, Đồng phục Hải Anh đã chính thức ra mắt thị trường mẫu áo đồng phục công ty cổ đức cách điệu. Sở hữu thiết kế ấn tượng với điểm nhấn ở phần cổ bẻ và bo viền tay, kết hợp với tone màu xanh lơ tươi sáng, mẫu đồng phục này đã tạo nên một làn sóng mới trong giới thời trang công sở.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-13.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-14.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-15.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-16.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.7
+    },
+    {
+      "id": "32",
+      "title": "Mẫu Áo Polo Đồng Phục Công Ty Màu Xanh Phối Cổ Tím",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo polo đồng phục công ty màu xanh phối cổ tím than ghi ấn tượng mạnh mẽ với người nhìn bởi vẻ đẹp tinh tế, thanh lịch cùng cách pha phối màu độc đáo. Thiết kế là sự hòa hợp giữa các yếu tố cổ điển cùng phong cách hiện đại, trẻ trung và thời trang, giúp người mặc có thể dễ dàng biến tấu với nhiều kiểu trang phục khác nhau.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-41-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-41-600x600.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.6
+    },
+    {
+      "id": "33",
+      "title": "Mẫu Áo Đồng Phục Công Ty Xanh Nhạt Cổ Trắng",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Đồng phục áo polo đã trở thành xu hướng thời trang đồng phục được nhiều thương hiệu lựa chọn bởi vẻ đẹp thanh lịch, trẻ trung nó đem lại. Nắm bắt nhu cầu của khách hàng, Đồng phục Hải Anh đã cho ra mắt mẫu áo đồng phục công ty xanh nhạt cổ trắng thêu logo. Item này không chỉ tôn lên sự chuyên nghiệp, chỉn chu của người mặc, mà còn giúp để lại những ấn tượng mạnh mẽ với người đối diện.",
+      "price": 230000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-33.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-34.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-35.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-36.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "34",
+      "title": "Mẫu Áo Polo Đồng Phục Công Ty Mitsubishi",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Sở hữu sắc đỏ tươi sáng và nổi bật, mẫu áo polo đồng phục công ty hãng sản xuất ô tô Mitsubishi chắc chắn sẽ giúp doanh nghiệp bạn trở nên chuyên nghiệp, ghi ấn tượng mạnh mẽ với khách hàng. Mẫu áo đồng phục Mitsubishi của Hải Anh được thiết kế theo phong cách hiện đại, đường may chỉn chu, tỉ mỉ cùng chất liệu vải may cao cấp, đảm bảo sự tự tin và thoải mái cho nhân viên.",
+      "price": 230000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-52-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-53.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-54.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-55.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.6
+    },
+    {
+      "id": "35",
+      "title": "Mẫu Áo Đồng Phục Công Ty Màu Nâu Cafe Cổ Xám",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo đồng phục công ty màu nâu cafe cổ xám đang xâm chiến giới thời trang đồng phục. Bởi vẻ đẹp trẻ trung, cá tính nhưng không kém phần lịch sự và chuyên nghiệp. Đồng phục áo polo màu nâu cafe cổ xám sở hữu thiết kế sang trọng, gam màu trung tính, dễ phối đồ và tôn dáng nên được lòng dân công sở.",
+      "price": 250000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-29.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-30.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-31.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-32.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "36",
+      "title": "Mẫu Áo Polo Đồng Phục Doanh Nghiệp Thêu Logo Nổi",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo polo đồng phục doanh nghiệp thêu logo đang trở thành xu hướng thời trang công sở được nhiều khách hàng lựa chọn. Sở hữu thiết kế thanh lịch, nhã nhặn, màu cam nude thời trang, mẫu đồng phục này hoàn toàn đáp ứng được nhu cầu mặc đẹp của dân văn phòng, công sở.",
+      "price": 250000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-21.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-22.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-23.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-24.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.7
+    },
+    {
+      "id": "37",
+      "title": "Mẫu Áo Polo Đồng Phục Công Ty Màu Hồng Viền Cổ Trắng",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo polo đồng phục công ty cổ đức màu hồng viền cổ trắng đang là sản phẩm hot và “đắt khách” của Đồng phục Hải Anh. Sở hữu thiết kế trẻ trung, năng động cùng tone màu hồng nổi bật, mẫu đồng phục giúp người mặc thu hút được mọi ánh nhìn. Đặc biệt, chất vải cotton thấm hút mồ hôi tốt, chống bết rít bí bách, áo polo đồng phục đem lại trải nghiệm thoải mái và mát mẻ.",
+      "price": 280000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-25.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-28.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-27.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.8
+    },
+    {
+      "id": "38",
+      "title": "Mẫu Áo Polo Đồng Phục Công Ty Màu Tím In Logo",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo polo đồng phục công ty màu tím logo công nghệ cao được nhiều khách hàng yêu thích bởi thiết kế hiện đại, trẻ trung cùng màu sắc nổi bật. Với mẫu áo đồng phục này, khách hàng dễ dàng phối cùng nhiều kiểu trang phục, thể hiện được nét đặc trưng trong phong cách của mình. Đặc biệt chất liệu vải thun cotton cao cấp, đảm bảo sự thoải mái và dễ chịu cho người mặc.",
+      "price": 280000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-17.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-19.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-20.jpg"
+      ],
+      "discountedPercentage": 15,
+      "rating": 4.6
+    },
+    {
+      "id": "39",
+      "title": "Đồng phục Ngân Hàng Thương Mại OCB",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo đồng phục công ty FPT in logo công nghệ chuyển nhiệt là thiết kế kinh điển và được khách hàng ưa chuộng bởi tính ứng dụng nó đem lại. Thiết kế cổ bẻ may bo dệt cứng cáp tăng phần lịch sự, trang nhã và chuyên nghiệp. Kết hợp với phần dáng áo thun năng động và trẻ trung, mẫu áo polo phù hợp với mọi đối tượng người mặc và sử dụng được trong nhiều trường học.",
+      "price": 320000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-64.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-65.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-66.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-67.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.7
+    },
+    {
+      "id": "40",
+      "title": "Mẫu Đồng Phục Nhân Viên Ngân Hàng TP Bank Cổ Thêu",
+      "category": "Áo polo đồng phục",
+      "brand": "Hải Anh",
+      "description": "Mẫu đồng phục nhân viên ngân hàng TP Bank cổ thêu để lại những ấn tượng mạnh mẽ với khách hàng bởi thiết kế trẻ trung, thanh lịch. Tone màu vàng tươi nổi bật và tươi sáng, hình in – thêu logo đẹp mắt, độc đáo. Kết hợp với chất liệu vải may cao cấp, đảm bảo những trải nghiệm thoải mái, tự tin cho người mặc.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-45.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-46.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/trang-phuc-ao-thun-polo-dong-phuc-47.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.9
+    },
+    {
+      "id": "41",
+      "title": "Mẫu Áo Thun Cổ Tròn Đồng Phục Công Ty Điện Máy Xanh",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Với hơn 10 năm thành lập, Điện Máy Xanh đang là một trong những công ty điện máy lớn nhất Việt Nam. Công ty luôn được đánh giá cao về phong cách phục vụ chuyên nghiệp, chỉn chu và tôn trọng khách hàng. Tiêu chí làm việc này được thể hiện rất rõ qua thiết kế của mẫu áo đồng phục điện lạnh công ty Điện Máy Xanh dưới đây.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2021/12/dong-phuc-dien-may-xanh-9-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2021/12/dong-phuc-dien-may-xanh-9-600x600.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "42",
+      "title": "Mẫu Áo Thun Cổ Tròn Đồng Phục KOI Thé",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "KOI Thé là một thương hiệu nổi tiếng trong ngành đồ uống, với nhiều chi nhánh trên khắp Việt Nam nổi tiếng có thể kể đến như koi thé Nha Trang, koi thé Đà Nẵng, Hà Nội… Để thể hiện sự chuyên nghiệp và đồng bộ trong bộ đồng phục của nhân viên, mẫu áo thun cổ tròn đồng phục KOI Thé của Hải Anh được ra đời.",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-ao-thun-co-tron-dong-phuc-koi-the-dong-phuc-hai-anh-1.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/cach-phoi-mau-ao-thun-co-tron-dong-phuc-koi-the-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-ao-thun-co-tron-dong-phuc-koi-the-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/chat-lieu-mau-ao-thun-co-tron-dong-phuc-koi-the-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.9
+    },
+    {
+      "id": "43",
+      "title": "Mẫu Áo Thun Đồng Phục Cổ Tròn 30Shine",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Với thiết kế đơn giản nhưng không kém phần đẳng cấp, mẫu áo này mang lại sự thoải mái, thời trang và chuyên nghiệp cho người mặc, đồng thời còn phản ánh được tinh thần của doanh nghiệp hay tổ chức mà nó đại diện. Hãy cùng khám phá sự tinh tế và chất lượng sản phẩm áo thun đồng phục cổ tròn của đồng phục Hải Anh trong bài viết dưới đây.",
+      "price": 250000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-ao-thun-dong-phuc-co-tron-30shine-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/phoi-mau-ao-thun-dong-phuc-co-tron-30shine-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/chat-vai-mau-ao-thun-dong-phuc-co-tron-30shine-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 25,
+      "rating": 4.6
+    },
+    {
+      "id": "44",
+      "title": "Mẫu Áo Thun Cổ Tròn Đồng Phục Nhân Viên Ministop",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Áo thun cổ tròn đồng phục là một sản phẩm không thể thiếu trong bộ trang phục đồng phục của các nhân viên tại các cửa hàng, siêu thị hay chuỗi bán lẻ. Với mục đích tạo sự đồng đều và chuyên nghiệp, áo thun đồng phục là lựa chọn phổ biến của các doanh nghiệp. Trong bài viết này, chúng ta sẽ cùng tìm hiểu về mẫu áo thun cổ tròn đồng phục nhân viên Ministop, sản phẩm được thiết kế và sản xuất bởi Đồng Phục Hải Anh – một trong những đơn vị hàng đầu về đồng phục tại Việt Nam.",
+      "price": 350000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-ao-thun-co-tron-dong-phuc-nhan-vien-ministop-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/cach-phoi-ao-thun-co-tron-dong-phuc-nhan-vien-ministop-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/chat-luong-hinh-in-mau-ao-thun-co-tron-dong-phuc-nhan-vien-ministop-dong-phuc-doanh-nghiep-hai-anh.jpg"
+      ],
+      "discountedPercentage": 25,
+      "rating": 4.8
+    },
+    {
+      "id": "45",
+      "title": "Mẫu Áo Thun Cổ Tròn Đồng Phục The Alley",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "The Alley là một thương hiệu nổi tiếng trong lĩnh vực đồ uống và thực phẩm, đã có mặt tại nhiều quốc gia trên thế giới. Việc sử dụng áo thun cổ tròn đồng phục cho nhân viên The Alley không chỉ giúp nhân viên trông chuyên nghiệp và đồng đều mà còn giúp khách hàng dễ dàng nhận ra nhân viên của quán và cảm thấy yên tâm khi đến thưởng thức sản phẩm của thương hiệu này. ",
+      "price": 300000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-sac-ao-thun-co-tron-dong-phuc-nhan-vien-the-alley-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/mau-ao-thun-co-tron-dong-phuc-nhan-vien-the-alley-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2023/01/ao-thun-co-tron-dong-phuc-nhan-vien-the-alley-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.7
+    },
+    {
+      "id": "46",
+      "title": "Mẫu Áo Thun Cổ Tròn Đồng Phục Ngân Hàng Seabank",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Mẫu áo thun cổ tròn đồng phục Ngân Hàng Seabank không chỉ là biểu tượng của sự chuyên nghiệp mà còn là sự kết hợp tinh tế giữa phong cách hiện đại và màu sắc nổi bật. Với màu đỏ quyến rũ in chuyển nhiệt, mẫu áo này không chỉ tạo nên sự đồng đội mà còn phản ánh tinh thần năng động và sự tin tưởng của đội ngũ nhân viên Seabank.",
+      "price": 230000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/mau-ao-thun-co-tron-dong-phuc-ngan-hang-seabank-dong-phuc-hai-anh-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/mau-ao-thun-dong-phuc-co-tron-ngan-hang-seabank-dong-phuc-hai-anh.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2024/02/ao-thun-co-tron-dong-phuc-ngan-hang-seabank-dong-phuc-hai-anh.jpg"
+      ],
+      "discountedPercentage": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "47",
+      "title": "Thời Trang Áo Thun Đồng Phục Trơn Màu Cam",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Thời trang áo thun đồng phục trơn màu cam hiện đang được các khách hàng săn đón bởi sự đơn giản hài hòa nhã nhặn và đậm nét công sở mà nó đem lại. Với những đặc điểm nổi bật mà chiếc áo này đây chắc chắn là một mẫu thiết kế hot nhất trên thị trường hiện nay.  Hãy cùng chúng tôi tìm hiểu qua bài viết dưới đây những đặc điểm nổi bật nhất của mẫu thiết này ngay nào.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-57-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-57-600x600.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.6
+    },
+    {
+      "id": "48",
+      "title": "Mẫu Đồng Phục Áo Thun Cổ Tròn Màu Hồng",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Đồng phục áo thun cổ tròn màu hồng neon hiện đang được dân văn phòng săn đón với thiết kế tinh tế đơn giản, hài hoà đậm chất hiện đại cùng màu sắc nền nã trẻ trung và chất liệu ưu việt. Chiếc áo này không chỉ phù hợp với những ngày oi nồng mà còn giúp bạn thời trang ngay cả trong tiết trời mùa thu se lạnh.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-59-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-59-600x600.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.8
+    },
+    {
+      "id": "49",
+      "title": "Mẫu Áo Thun Cổ Tròn Chất Liệu Vải Co Giãn",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Áo thun cổ tròn chất liệu vải co giãn  luôn thu hút người  mặc bởi sự đơn giản và thoải mái. Với chất liệu cotton có khả năng thấm hút mồ hôi cực tốt hứa hẹn sẽ đem đến những trải nghiệm tuyệt vời trong ngày hè nắng nóng.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-53-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-53-600x600.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.9
+    },
+    {
+      "id": "50",
+      "title": "Mẫu Áo Thun Đồng Phục Cổ Tròn Trắng",
+      "category": "Áo thun đồng phục cổ tròn",
+      "brand": "Hải Anh",
+      "description": "Áo thun đồng phục cổ tròn trắng là trang phục được nhiều người yêu thích bởi sự thoải mái và tiện lợi. Mẫu áo này còn kết hợp được với nhiều loại trang phục khác nhau. Thay vì sử dụng những chiếc áo sơ mi có phần nghiêm túc thì hãy thử kết hợp áo thun với một vài phụ kiện nhằm làm mới bản thân và tạo cảm giác trẻ trung ,năng động.",
+      "price": 200000,
+      "stock": 10,
+      "images":
+      [
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-48-600x600.jpg",
+        "https://dongphuchaianh.vn/wp-content/uploads/2022/07/ao-thun-dong-phuc-co-co-48-600x600.jpg"
+      ],
+      "discountedPercentage": 20,
+      "rating": 4.9
     }
   ],
   "categories":

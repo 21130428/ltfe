@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Menu from "./components/Menu/Menu";
 import Home from "./pages/HomePage/HomePage";
+import Search from "./pages/SearchPage/SearchPage";
 import CategoryProduct from "./pages/CategoryProductPage/CategoryProductPage";
 import ProductSingle from "./pages/ProductSinglePage/ProductSinglePage";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
@@ -24,6 +25,7 @@ function App() {
                         <Route path = "/product/:id" element = {<ProductSingle />} />
                         <Route path = "/category/:category" element = {<CategoryProduct />} />
                         <Route path = "/ProductsPage" element={<ProductsPage/>}/>
+                        <Route path = "/search/:searchTerm" element = {<Search />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
