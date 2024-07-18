@@ -14,22 +14,6 @@ const Header = () => {
                                 <li>
                                     <Link to="/">WEB BÁN ĐỒNG PHỤC</Link>
                                 </li>
-                                <li className='vert-line'></li>
-                                <li className='flex align-center'>
-                                    <span className='fs-13'>Follow us on</span>
-                                    <ul className='social-links flex align-center'>
-                                        <li className='mx-2'>
-                                            <a href="" className='fs-15'>
-                                                <i className='fab fa-facebook'></i>
-                                            </a>
-                                        </li>
-                                        <li className='mx-2'>
-                                            <a href="" className='fs-15'>
-                                                <i className='fab fa-instagram'></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
                             </ul>
                         </div>
                         <div className='header-cnt-top-r'>
