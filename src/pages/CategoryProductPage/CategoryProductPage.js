@@ -6,12 +6,15 @@ import { useParams } from 'react-router-dom';
 import { getAllProductsByCategory, fetchAsyncProductsOfCategory, getCategoryProductsStatus } from '../../store/categorySlice';
 import Loader from '../../components/Loader/Loader';
 import { STATUS } from '../../utils/status';
+import {getAllCarts,getCartItemsCount, getCartTotal} from "../../store/cartSlice";
 
 const CategoryProductPage = () => {
     const dispatch = useDispatch();
     const { category } = useParams();
     const categoryProducts = useSelector(getAllProductsByCategory);
     const categoryProductsStatus = useSelector(getCategoryProductsStatus);
+
+
 
     useEffect(() => {
         dispatch(fetchAsyncProductsOfCategory(category));

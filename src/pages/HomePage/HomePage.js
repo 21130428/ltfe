@@ -13,7 +13,7 @@ const HomePage = () =>{
 
     useEffect(()=>{
         console.log("Dispatching fetchAsyncProducts");
-        dispatch(fetchAsyncProducts(3))
+        dispatch(fetchAsyncProducts(20))
     },[]);
     const products = useSelector(getAllProducts);
     console.log(products);

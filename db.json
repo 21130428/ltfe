@@ -865,5 +865,30 @@
     "Quần âu công sở",
     "Áo polo đồng phục",
     "Áo thun đồng phục cổ tròn"
-  ]
+  ],
+  "cart": [{
+    "products":
+    [
+      {
+        "id": "1",
+        "title": "Mẫu Áo Đồng Phục Mầm Non Trường Hữu Nghị Màu Tím",
+        "category": "Đồng phục mầm non",
+        "brand": "Hải Anh",
+        "description": "Áo đồng phục mầm non của Trường Hữu Nghị với màu tím là một lựa chọn độc đáo và trẻ trung, tạo nên sự nổi bật trong môi trường học tập của trẻ nhỏ. Với màu tím tươi sáng, áo đồng phục mầm non của Trường Hữu Nghị mang đến sự sáng tạo và phong cách. Màu tím tượng trưng cho sự quý phái, tinh tế và sự sáng suốt. Nó tạo ra một diện mạo độc đáo và thu hút sự chú ý từ các bé.",
+        "price": 200000,
+        "stock": 10,
+        "images":
+        [
+          "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+          "https://dongphuchaianh.vn/wp-content/uploads/2023/07/ao-dong-phuc-mam-non-mau-tim.jpg",
+          "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-mau-tim.jpg",
+          "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-truong-huu-nghi.jpg",
+          "https://dongphuchaianh.vn/wp-content/uploads/2023/07/mau-ao-dong-phuc-mam-non-truong-huu-nghi-mau-tim.jpg"
+        ],
+        "discountedPercentage": 10,
+        "rating": 4.8
+      }]
+      }]
+
 }
+

@@ -140,7 +140,7 @@ input, textarea, select {
   color: #308ef9;
 }
 .text-light-orange {
-  color: #FF6433;
+  color: #335fff;
 }
 .text-light-gray {
   color: #F2F2F2;
@@ -171,7 +171,7 @@ input, textarea, select {
   background-color: #308ef9;
 }
 .bg-light-orange {
-  background-color: #FF6433;
+  background-color: #335fff;
 }
 .bg-light-gray {
   background-color: #F2F2F2;
@@ -514,8 +514,8 @@ input, textarea, select {
 }
 .sidebar .cat-list::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #ff774d;
-  outline: 1px solid #FF6433;
+  background-color: #4d73ff;
+  outline: 1px solid #335fff;
 }
 
 .hide-sidebar {
